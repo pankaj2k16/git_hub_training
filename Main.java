@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Main {
 
     public static boolean isPalidrome(String str) {
@@ -13,6 +15,7 @@ class Main {
     public static void main(String[] args) {
         String input = "Hello mam how are you";
         String[] arr = input.split(" ");
+
         for (int j = 0; j < arr.length; j++) {
             boolean flag = isPalidrome(arr[j]);
             if (flag) {
